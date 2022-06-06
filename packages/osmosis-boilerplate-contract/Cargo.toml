@@ -1,0 +1,18 @@
+[package]
+name = "osmosis-boilerplate-contract"
+version = "0.1.0"
+authors = ["Gabe R. <gabe.r@delphilabs.io>"]
+edition = "2018"
+
+[lib]
+doctest = false
+
+[dependencies]
+cosmwasm-std = "1.0.0"
+cw20 = "0.13.2"
+
+schemars = "0.8.1"
+serde = { version = "1.0.103", default-features = false, features = ["derive"] }
+
+[dev-dependencies]
+cosmwasm-schema = "1.0.0"
